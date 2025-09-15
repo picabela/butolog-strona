@@ -949,10 +949,6 @@ textarea {
     color: white;
 }
 
-.footer .logo-image {
-    filter: brightness(0) invert(1);
-}
-
 .footer-description {
     color: #d1d5db;
     margin: 1.5rem 0;
