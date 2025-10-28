@@ -23,7 +23,7 @@
                 <nav class="nav desktop-nav">
                     <a href="#o-serwisie" class="nav-link">O serwisie</a>
                     <a href="#proces" class="nav-link">Proces</a>
-                    <a href="#dlaczego-my" class="nav-link">Dlaczego my</a>
+                    <a href="#oferta" class="nav-link">Oferta</a>
                     <a href="#wycena" class="nav-link">Wycena</a>
                     <a href="#faq" class="nav-link">FAQ</a>
                     <a href="#kontakt" class="nav-link">Kontakt</a>
@@ -38,7 +38,7 @@
             <nav class="mobile-nav" id="mobileNav">
                 <a href="#o-serwisie" class="nav-link" onclick="closeMobileMenu()">O serwisie</a>
                 <a href="#proces" class="nav-link" onclick="closeMobileMenu()">Proces</a>
-                <a href="#dlaczego-my" class="nav-link" onclick="closeMobileMenu()">Dlaczego my</a>
+                <a href="#oferta" class="nav-link" onclick="closeMobileMenu()">Oferta</a>
                 <a href="#wycena" class="nav-link" onclick="closeMobileMenu()">Wycena</a>
                 <a href="#faq" class="nav-link" onclick="closeMobileMenu()">FAQ</a>
                 <a href="#kontakt" class="nav-link" onclick="closeMobileMenu()">Kontakt</a>
@@ -56,7 +56,7 @@
                     <span class="text-primary">na odległość</span>
                 </h1>
                 <p class="hero-subtitle">
-                    Profesjonalna naprawa obuwia, szybko i wygodnie, bez wychodzenia z domu
+                    Profesjonalna naprawa obuwia - my zajmujemy się całą logistyką, Ty tylko wysyłasz i odbierasz buty z paczkomatu
                 </p>
                 
                 <div class="hero-buttons">
@@ -229,13 +229,83 @@
         </div>
     </section>
 
+    <!-- Services Section -->
+    <section id="oferta" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nasza oferta</h2>
+                <p class="section-subtitle">
+                    Oferujemy pełen zakres usług szewskich. Poniżej przykładowe naprawy - wyślij zdjęcia w formularzu wyceny, aby dowiedzieć się czy możliwa jest naprawa Twoich butów i w jakiej cenie.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <h3 class="service-title">Wymiana podeszew</h3>
+                    <p class="service-description">Profesjonalna wymiana zużytych podeszew na nowe, wysokiej jakości materiały. Dostępne różne rodzaje podeszew dopasowane do typu obuwia.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3 class="service-title">Naprawa obcasów</h3>
+                    <p class="service-description">Wymiana uszkodzonych obcasów, naprawa połamanych elementów, wymiana fleków. Przywracamy stabilność i wygodę Twoim butom.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3 class="service-title">Naprawa zamków i guzików</h3>
+                    <p class="service-description">Wymiana uszkodzonych zamków błyskawicznych, naprawa guziков i klamer. Przywracamy pełną funkcjonalność obuwiu.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3 class="service-title">Renowacja skóry</h3>
+                    <p class="service-description">Czyszczenie, konserwacja i odnawianie skóry. Przywracamy kolor i blask zniszczonym butom skórzanym.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fill-drip"></i>
+                    </div>
+                    <h3 class="service-title">Farbowanie i impregnacja</h3>
+                    <p class="service-description">Profesjonalne farbowanie obuwia, zmiana koloru, impregnacja chroniąca przed wilgocią i brudem.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-band-aid"></i>
+                    </div>
+                    <h3 class="service-title">Naprawa przeszyć i rozdarć</h3>
+                    <p class="service-description">Naprawa uszkodzonych szwów, łatanie rozdarć, wzmacnianie osłabionych miejsc. Przedłużamy życie Twoim butom.</p>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <p class="services-note">
+                    <i class="fas fa-info-circle"></i>
+                    To tylko przykłady naszych usług. Naprawiamy wszystkie rodzaje obuwia oraz torebki, paski i inne wyroby skórzane. Nie jesteś pewien czy możemy naprawić Twój przedmiot? Wyślij zdjęcie w formularzu wyceny - odpowiemy czy naprawa jest możliwa.
+                </p>
+                <a href="#wycena" class="btn btn-primary btn-large">Wyceń swoją naprawę</a>
+            </div>
+        </div>
+    </section>
+
     <!-- Why Us Section -->
     <section id="dlaczego-my" class="why-us">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Dlaczego my?</h2>
                 <p class="section-subtitle">
-                    Dwa najważniejsze powody, dla których klienci wybierają BUTOLOG
+                    Najważniejsze powody, dla których klienci wybierają BUTOLOG
                 </p>
             </div>
 
@@ -246,28 +316,21 @@
                     </div>
                     <h3 class="feature-title">Darmowa wysyłka w obie strony</h3>
                     <p class="feature-description">
-                        Nie płacisz za wysyłkę. Koszt transportu w obie strony jest wliczony w cenę usługi.
+                        Nie płacisz za wysyłkę. Koszt transportu w obie strony jest wliczony w cenę usługi. My zajmujemy się całą logistyką - Ty tylko wysyłasz i odbierasz buty z paczkomatu.
                     </p>
                 </div>
-                
+
                 <div class="feature-card feature-orange">
                     <div class="feature-icon">
-                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-user-tie"></i>
                     </div>
-                    <h3 class="feature-title">Naprawa do 48h</h3>
+                    <h3 class="feature-title">Doświadczeni mistrzowie szewscy</h3>
                     <p class="feature-description">
-                        Gwarantujemy naprawę w maksymalnie 48 godzin od otrzymania przesyłki w naszym serwisie.
+                        Wszystkie naprawy wykonują doświadczeni fachowcy z wieloletnim stażem. Gwarantujemy najwyższą jakość usług i profesjonalne podejście do każdego zlecenia. Naprawa do 48h od otrzymania przesyłki.
                     </p>
                 </div>
             </div>
 
-            <div class="guarantee-card">
-                <h3 class="guarantee-title">Gwarancja satysfakcji</h3>
-                <p class="guarantee-description">
-                    Jeśli z jakiegoś powodu nie jesteś zadowolony z naszej usługi, 
-                    zwrócimy Ci pieniądze. Twoja satysfakcja to nasz priorytet.
-                </p>
-            </div>
         </div>
     </section>
 
@@ -284,21 +347,27 @@
             <div class="quote-form-container">
                 <form id="quoteForm" class="quote-form" action="send_quote.php" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
-                        <label class="form-label">Zdjęcie butów *</label>
+                        <label class="form-label">
+                            <i class="fas fa-camera form-label-icon"></i>
+                            Zdjęcia butów *
+                        </label>
                         <p class="upload-info">Możesz przesłać do 5 zdjęć (JPG, PNG do 10MB każde)</p>
-                        <div class="file-upload" onclick="document.getElementById('imageInput').click()">
+                        <div class="file-upload" id="fileUploadArea" onclick="document.getElementById('imageInput').click()">
                             <input type="file" id="imageInput" name="images[]" accept="image/*" multiple required style="display: none;" onchange="previewImages(this)">
                             <div id="uploadArea" class="upload-area">
-                                <i class="fas fa-images upload-icon"></i>
+                                <i class="fas fa-cloud-upload-alt upload-icon"></i>
                                 <p class="upload-text">Kliknij aby dodać zdjęcia</p>
-                                <p class="upload-hint">Wybierz z galerii lub zrób zdjęcie</p>
+                                <p class="upload-hint">lub przeciągnij i upuść pliki tutaj</p>
                             </div>
                             <div id="imagesPreview" class="images-preview" style="display: none;">
                                 <div id="previewContainer" class="preview-container"></div>
-                                <p class="preview-text">Zdjęcia zostały dodane</p>
+                                <button type="button" class="btn-add-more" onclick="document.getElementById('imageInput').click(); event.stopPropagation();">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Dodaj więcej zdjęć
+                                </button>
                             </div>
                         </div>
-                        
+
                         <!-- Dodatkowe przyciski dla urządzeń mobilnych -->
                         <div class="mobile-photo-options">
                             <button type="button" class="btn-photo-option" onclick="selectFromGallery()">
@@ -313,12 +382,18 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="description" class="form-label">Opis naprawy *</label>
+                        <label for="description" class="form-label">
+                            <i class="fas fa-file-alt form-label-icon"></i>
+                            Opis naprawy *
+                        </label>
                         <textarea id="description" name="description" placeholder="Np. pęknięta podeszwa, wymiana fleków, problem z zamkiem..." rows="4" required></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label for="email" class="form-label">Adres email *</label>
+                        <label for="email" class="form-label">
+                            <i class="fas fa-envelope form-label-icon"></i>
+                            Adres email *
+                        </label>
                         <div class="input-with-icon">
                             <i class="fas fa-envelope input-icon"></i>
                             <input type="email" id="email" name="email" placeholder="twoj@email.pl" required>
@@ -330,7 +405,7 @@
                             <label class="checkbox-label">
                                 <input type="checkbox" name="privacy_accepted" required hidden>
                                 <span class="checkmark"></span>
-                                <span>Akceptuję <a href="#" class="link">politykę prywatności</a> *</span>
+                                <span>Akceptuję <a href="polityka-prywatnosci.html" target="_blank" class="link">politykę prywatności</a> *</span>
                             </label>
 
                             <label class="checkbox-label">
@@ -581,6 +656,7 @@
                     <ul class="footer-menu">
                         <li><a href="#o-serwisie">O serwisie</a></li>
                         <li><a href="#proces">Jak to działa</a></li>
+                        <li><a href="#oferta">Oferta</a></li>
                         <li><a href="#wycena">Wycena</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#kontakt">Kontakt</a></li>
@@ -603,8 +679,8 @@
             <div class="footer-bottom">
                 <p class="copyright">© 2025 BUTOLOG. Wszystkie prawa zastrzeżone.</p>
                 <div class="footer-legal">
-                    <a href="#">Polityka prywatności</a>
-                    <a href="#">Regulamin</a>
+                    <a href="polityka-prywatnosci.html">Polityka prywatności</a>
+                    <a href="regulamin.html">Regulamin</a>
                     <a href="#">Cookies</a>
                 </div>
             </div>
