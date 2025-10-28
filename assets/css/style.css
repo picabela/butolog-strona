@@ -461,10 +461,8 @@ section {
     }
 }
 
-@media (max-width: 1023px) {
-    .process-step:last-child::after {
-        display: none;
-    }
+.process-step:last-child::after {
+    display: none;
 }
 
 .process-step:hover {
