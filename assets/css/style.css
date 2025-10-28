@@ -111,23 +111,22 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit;
 }
 
-.logo-link:hover .logo-text {
-    color: #8b4513;
-}
-.logo-icon {
-    background: #8b4513;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo-image {
+    height: 2.5rem;
+    transition: opacity 0.3s ease;
 }
 
-.logo-text {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #1f2937;
+.logo-link:hover .logo-image {
+    opacity: 0.8;
+}
+
+.logo-image-footer {
+    height: 2rem;
+    transition: opacity 0.3s ease;
+}
+
+.logo-link:hover .logo-image-footer {
+    opacity: 0.8;
 }
 
 .desktop-nav {
@@ -662,11 +661,13 @@ textarea {
     cursor: pointer;
     font-size: 1rem;
     line-height: 1.5;
+    position: relative;
 }
 
 .checkbox-label input[type="checkbox"] {
-    width: auto;
-    margin: 0;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 
 .checkmark {
@@ -679,14 +680,15 @@ textarea {
     justify-content: center;
     flex-shrink: 0;
     margin-top: 0.125rem;
+    transition: all 0.3s ease;
 }
 
-.checkbox-label input[type="checkbox"]:checked + .checkmark {
+.checkbox-label input[type="checkbox"]:checked ~ .checkmark {
     background: #8b4513;
     border-color: #8b4513;
 }
 
-.checkbox-label input[type="checkbox"]:checked + .checkmark::after {
+.checkbox-label input[type="checkbox"]:checked ~ .checkmark::after {
     content: '✓';
     color: white;
     font-size: 0.875rem;
