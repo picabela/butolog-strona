@@ -1520,6 +1520,19 @@ textarea {
     color: white;
 }
 
+.footer-payments {
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid #374151;
+}
+
+.payment-logo {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+
 .footer-bottom {
     border-top: 1px solid #374151;
     padding-top: 2rem;
@@ -1649,7 +1662,7 @@ textarea {
 }
 
 .legal-section ul li::before {
-    content: '\u2022';
+    content: '•';
     position: absolute;
     left: 0.75rem;
     color: #d4a574;
