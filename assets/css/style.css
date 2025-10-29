@@ -463,12 +463,12 @@ section {
 
 .process-step-6::after {
     display: block !important;
-    content: '↓';
+    content: '→';
     position: absolute;
-    left: 50%;
-    bottom: -2.5rem;
-    transform: translateX(-50%);
-    font-size: 2.5rem;
+    right: -1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
     font-weight: 700;
     color: #d4a574;
     z-index: 1;
@@ -479,7 +479,22 @@ section {
 .process-step-6:hover::after {
     color: #8b4513;
     opacity: 1;
-    bottom: -2.7rem;
+    right: -1.7rem;
+}
+
+@media (min-width: 1024px) {
+    .process-step-6:nth-child(3n)::after {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .process-step-6:nth-child(3n)::after {
+        display: block !important;
+    }
+    .process-step-6:nth-child(4n)::after {
+        display: none;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -488,39 +503,25 @@ section {
     }
 }
 
-.process-step-final {
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-}
-
 .process-step-highlighted {
-    max-width: 500px;
     background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
     color: white;
-    padding: 3rem 2.5rem;
-    transform: scale(1.1);
-    box-shadow: 0 20px 40px rgba(139, 69, 19, 0.3);
     border: 3px solid #d4a574;
     animation: pulse 2s ease-in-out infinite;
 }
 
 @keyframes pulse {
     0%, 100% {
-        box-shadow: 0 20px 40px rgba(139, 69, 19, 0.3);
+        box-shadow: 0 4px 12px rgba(139, 69, 19, 0.15);
     }
     50% {
-        box-shadow: 0 25px 50px rgba(139, 69, 19, 0.4);
+        box-shadow: 0 20px 40px rgba(139, 69, 19, 0.35);
     }
 }
 
 .process-step-highlighted .step-icon {
     background: white;
     color: #8b4513;
-    width: 4.5rem;
-    height: 4.5rem;
-    font-size: 2rem;
 }
 
 .process-step-highlighted .step-number {
@@ -528,23 +529,19 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 2.5rem;
 }
 
 .process-step-highlighted .step-title {
     color: white;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 .process-step-highlighted .step-description {
     color: #f5deb3;
-    font-size: 1rem;
 }
 
 .process-step-highlighted:hover {
-    transform: scale(1.12);
-    box-shadow: 0 25px 50px rgba(139, 69, 19, 0.4);
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(139, 69, 19, 0.4);
 }
 
 .process-step-highlighted:hover .step-icon {
@@ -552,19 +549,8 @@ section {
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 }
 
-@media (max-width: 768px) {
-    .process-step-final {
-        margin-top: 3rem;
-    }
-
-    .process-step-highlighted {
-        max-width: 100%;
-        transform: scale(1.05);
-    }
-
-    .process-step-highlighted:hover {
-        transform: scale(1.08);
-    }
+.process-step-highlighted::after {
+    display: none !important;
 }
 
 .process-step:hover {
