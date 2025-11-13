@@ -37,7 +37,7 @@
                     </div>
                     <div class="footer-contact-item">
                         <i class="fas fa-phone"></i>
-                        <a href="tel:+48123456789">+48 123 456 789</a>
+                        <a href="tel:+48123456789">+48 507 616 514</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                 <p class="copyright">© <?php echo date('Y'); ?> BUTOLOG. Wszystkie prawa zastrzeżone.</p>
                 <div class="footer-legal">
                     <a href="/polityka-prywatnosci">Polityka prywatności</a>
-                    <a href="/regulamin">Regulamin</a>
+                    <a href="/regulamin">Regulamin i gwarancja</a>
                 </div>
             </div>
         </div>

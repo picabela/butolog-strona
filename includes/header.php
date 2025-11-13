@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NGBVB6H8');</script>
+<!-- End Google Tag Manager -->
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="582449a0-3a4e-4e5e-be84-8c272c781d0f" data-blockingmode="auto" type="text/javascript"></script>
     <meta charset="UTF-8">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" href="/favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle . ' - BUTOLOG' : 'BUTOLOG - Zdalna naprawa butów przez paczkomat'; ?></title>
     <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Profesjonalna naprawa obuwia na odległość. Wyślij buty przez paczkomat InPost i odbierz je naprawione w 24h. Darmowa wysyłka w obie strony.'; ?>">
@@ -28,6 +38,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGBVB6H8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <!-- Header -->
     <header class="header">
         <div class="container">

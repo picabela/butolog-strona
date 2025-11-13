@@ -20,8 +20,8 @@ include 'includes/header.php';
             <div class="legal-body">
                 <div class="legal-section">
                     <h2>1. Administrator danych osobowych</h2>
-                    <p>Administratorem Twoich danych osobowych jest BUTOLOG, z siedzibą przy ul. Przykładowej 1, 00-001 Warszawa, NIP: 1234567890, REGON: 123456789.</p>
-                    <p>Kontakt z administratorem możliwy jest pod adresem email: <a href="mailto:kontakt@butolog.pl">kontakt@butolog.pl</a> lub numerem telefonu: +48 123 456 789.</p>
+                    <p>Administratorem Twoich danych osobowych jest BUTOLOG.PL.</p>
+                    <p>Kontakt z administratorem możliwy jest pod adresem email: <a href="mailto:kontakt@butolog.pl">kontakt@butolog.pl</a> lub numerem telefonu: +48 507 616 514.</p>
                 </div>
 
                 <div class="legal-section">
@@ -137,8 +137,8 @@ include 'includes/header.php';
                     <p>W przypadku pytań dotyczących przetwarzania danych osobowych lub niniejszej polityki prywatności, prosimy o kontakt:</p>
                     <ul>
                         <li><strong>Email:</strong> <a href="mailto:kontakt@butolog.pl">kontakt@butolog.pl</a></li>
-                        <li><strong>Telefon:</strong> +48 123 456 789</li>
-                        <li><strong>Adres:</strong> ul. Przykładowa 1, 00-001 Warszawa</li>
+                        <li><strong>Telefon:</strong> +48 507 616 514/li>
+        
                     </ul>
                 </div>
             </div>
