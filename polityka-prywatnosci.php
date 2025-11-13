@@ -21,7 +21,7 @@ include 'includes/header.php';
                 <div class="legal-section">
                     <h2>1. Administrator danych osobowych</h2>
                     <p>Administratorem Twoich danych osobowych jest BUTOLOG.PL.</p>
-                    <p>Kontakt z administratorem możliwy jest pod adresem email: <a href="mailto:kontakt@butolog.pl">kontakt@butolog.pl</a> lub numerem telefonu: +48 507 616 514.</p>
+                    <p>Kontakt z administratorem możliwy jest pod adresem email: <a href="mailto:kontakt@butolog.pl">kontakt@butolog.pl</a> lub numerem telefonu: +48 515 435 653.</p>
                 </div>
 
                 <div class="legal-section">
