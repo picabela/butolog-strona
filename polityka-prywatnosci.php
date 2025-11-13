@@ -137,7 +137,7 @@ include 'includes/header.php';
                     <p>W przypadku pytań dotyczących przetwarzania danych osobowych lub niniejszej polityki prywatności, prosimy o kontakt:</p>
                     <ul>
                         <li><strong>Email:</strong> <a href="mailto:kontakt@butolog.pl">kontakt@butolog.pl</a></li>
-                        <li><strong>Telefon:</strong> +48 507 616 514/li>
+                        <li><strong>Telefon:</strong> +48 515 435 653/li>
         
                     </ul>
                 </div>
