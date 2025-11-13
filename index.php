@@ -343,6 +343,17 @@ include 'includes/header.php';
                     </div>
 
                     <div class="form-group">
+                        <label for="quantity" class="form-label">
+                            <i class="fas fa-calculator form-label-icon"></i>
+                            Ilość butów do naprawy *
+                        </label>
+                        <select id="quantity" name="quantity" required>
+                            <option value="1 para">1 para</option>
+                            <option value="1 sztuka">1 sztuka</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
                         <label for="description" class="form-label">
                             <i class="fas fa-file-alt form-label-icon"></i>
                             Opis naprawy *

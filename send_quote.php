@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 // Validate required fields
-$required_fields = ['description', 'email', 'privacy_accepted'];
+$required_fields = ['quantity', 'description', 'email', 'privacy_accepted'];
 $errors = [];
 
 foreach ($required_fields as $field) {
@@ -43,6 +43,7 @@ if (!empty($errors)) {
 
 // Process form data
 $user_id = $_POST['user_id'] ?? 'BT-' . time() . '-' . strtoupper(substr(md5(uniqid()), 0, 4));
+$quantity = htmlspecialchars($_POST['quantity']);
 $description = htmlspecialchars($_POST['description']);
 $email = htmlspecialchars($_POST['email']);
 $marketing_accepted = isset($_POST['marketing_accepted']) ? 'TAK' : 'NIE';
@@ -125,7 +126,12 @@ $email_body = "
             <div class='label'>Email klienta:</div>
             <div class='value'>{$email}</div>
         </div>
-        
+
+        <div class='field'>
+            <div class='label'>Ilość butów do naprawy:</div>
+            <div class='value'>{$quantity}</div>
+        </div>
+
         <div class='field'>
             <div class='label'>Opis naprawy:</div>
             <div class='value'>{$description}</div>
@@ -219,6 +225,7 @@ $log_entry = [
     'timestamp' => date('Y-m-d H:i:s'),
     'user_id' => $user_id,
     'email' => $email,
+    'quantity' => $quantity,
     'description' => $description,
     'marketing_accepted' => $marketing_accepted,
     'image_files' => $uploaded_images,
