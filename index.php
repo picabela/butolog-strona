@@ -558,7 +558,7 @@ include 'includes/header.php';
                         </div>
                         <div class="contact-details">
                             <h4 class="contact-label">Telefon (support)</h4>
-                            <a href="tel:+48123456789" class="contact-value">+48 507 616 514</a>
+                            <a href="tel:+48515435653" class="contact-value">+48 515 435 653</a>
                             <p class="contact-note">Tylko w przypadku problemów technicznych (płatności, przesyłki, strona www)</p>
                         </div>
                     </div>
