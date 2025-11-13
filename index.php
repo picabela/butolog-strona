@@ -1,5 +1,5 @@
 <?php
-$pageTitle = '';
+$pageTitle = 'Szybka naprawa obuwia: Szewc ONLINE';
 $pageDescription = 'Profesjonalna naprawa obuwia na odległość. Wyślij buty przez paczkomat InPost i odbierz je naprawione w 24h. Darmowa wysyłka w obie strony.';
 $pageKeywords = 'naprawa butów, szewc, paczkomat, InPost, naprawa obuwia, zdalna naprawa';
 include 'includes/header.php';
@@ -14,7 +14,10 @@ include 'includes/header.php';
                     <span class="text-primary">na odległość</span>
                 </h1>
                 <p class="hero-subtitle">
-                    Profesjonalna naprawa obuwia - my zajmujemy się całą logistyką, Ty tylko wysyłasz i odbierasz buty z paczkomatu
+                    Profesjonalna naprawa butów - bez zbędnych komplikacji.<br>
+                    My organizujemy paczkomat do wysyłki i odbioru.<br>
+                    Ty tylko wysyłasz i odbierasz naprawione obuwie. <br>
+                    Łatwo, szybko, bez kolejek i bez stresu.<br>
                 </p>
 
                 <div class="hero-buttons">
@@ -22,7 +25,7 @@ include 'includes/header.php';
                         <span>Wyceń swoją naprawę</span>
                         <i class="fas fa-arrow-right"></i>
                     </a>
-                    <a href="#o-serwisie" class="btn btn-secondary btn-large">
+                    <a href="#proces" class="btn btn-secondary btn-large">
                         Dowiedz się więcej
                     </a>
                 </div>
@@ -30,7 +33,7 @@ include 'includes/header.php';
                 <div class="hero-stats">
                     <div class="stat-item">
                         <div class="stat-number">24/7</div>
-                        <div class="stat-label">Dostępność paczkomatów</div>
+                        <div class="stat-label">Dostępność usługi</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">24h</div>
@@ -76,7 +79,7 @@ include 'includes/header.php';
                     </div>
                     <h3 class="benefit-title">Dostępność 24/7</h3>
                     <p class="benefit-description">
-                        Paczkomaty są czynne całą dobę. Nadaj i odbierz paczkę kiedy Ci wygodnie.
+                        Paczkomaty są czynne całą dobę. Nadaj i odbierz paczkę kiedy Ci wygodnie i z każdego miejsca w Polsce. Odbierz naprawę w ten sam sposób z dowolnego paczkomatu.
                     </p>
                 </div>
                 <div class="benefit-card">
@@ -85,7 +88,7 @@ include 'includes/header.php';
                     </div>
                     <h3 class="benefit-title">Oszczędność czasu</h3>
                     <p class="benefit-description">
-                        Szybka wycena online i profesjonalna naprawa w maksymalnie 24 godziny od otrzymania przesyłki.
+                        Szybka wycena online, szybkie płatności (np. BLIK) i profesjonalna naprawa w maksymalnie 24 godziny od dotarcia do nas przesyłki.
                     </p>
                 </div>
             </div>
@@ -98,7 +101,7 @@ include 'includes/header.php';
             <div class="section-header">
                 <h2 class="section-title">Jak to działa?</h2>
                 <p class="section-subtitle">
-                    Naprawa butów w 7 prostych krokach. Cały proces jest intuicyjny i zajmuje tylko kilka minut Twojego czasu.
+                    Naprawa butów w prostych krokach. Cały proces jest intuicyjny i zajmuje tylko kilka minut Twojego czasu.
                 </p>
             </div>
 
@@ -111,7 +114,7 @@ include 'includes/header.php';
                         <span class="step-number">01</span>
                     </div>
                     <h3 class="step-title">Zrób zdjęcie butów</h3>
-                    <p class="step-description">Sfotografuj buty i opisz problem w formularzu wyceny</p>
+                    <p class="step-description">Z poziomu formularza wyceny sfotografuj buty do naprawy i krótko opisz problem</p>
                 </div>
 
                 <div class="process-step">
@@ -121,8 +124,8 @@ include 'includes/header.php';
                         </div>
                         <span class="step-number">02</span>
                     </div>
-                    <h3 class="step-title">Otrzymaj wycenę i zapłać</h3>
-                    <p class="step-description">Otrzymasz szybką wycenę i opłacisz usługę online</p>
+                    <h3 class="step-title">Wycena i płatność</h3>
+                    <p class="step-description">Otrzymasz w wiadomości e-mail wycenę i link do formularza z szybkimi płatnościami online</p>
                 </div>
 
                 <div class="process-step">
@@ -132,8 +135,8 @@ include 'includes/header.php';
                         </div>
                         <span class="step-number">03</span>
                     </div>
-                    <h3 class="step-title">Wygeneruj etykietę</h3>
-                    <p class="step-description">Automatycznie wygenerujemy etykietę wysyłki</p>
+                    <h3 class="step-title">Pobierz etykietę wysyłki</h3>
+                    <p class="step-description">Automatycznie wygenerujemy etykietę wysyłki do wydruku zaadresowaną do naszego serwisu</p>
                 </div>
 
                 <div class="process-step">
@@ -144,7 +147,7 @@ include 'includes/header.php';
                         <span class="step-number">04</span>
                     </div>
                     <h3 class="step-title">Spakuj buty</h3>
-                    <p class="step-description">Zabezpiecz buty w kartonowym pudełku lub torbie</p>
+                    <p class="step-description">Zabezpiecz i zapakuj swoje buty w kartonowym pudełku lub torbie oraz naklej wygenerowaną etykietę wysyłki</p>
                 </div>
 
                 <div class="process-step">
@@ -155,7 +158,7 @@ include 'includes/header.php';
                         <span class="step-number">05</span>
                     </div>
                     <h3 class="step-title">Zanieś do paczkomatu</h3>
-                    <p class="step-description">Nadaj paczkę w najbliższym paczkomacie InPost</p>
+                    <p class="step-description">Nadaj paczkę w dowolnym paczkomacie InPost - wystarczy, że zeskanujesz kod z etykiety a paczkomat sam się otworzy</p>
                 </div>
 
                 <div class="process-step process-step-6">
@@ -166,7 +169,7 @@ include 'includes/header.php';
                         <span class="step-number">06</span>
                     </div>
                     <h3 class="step-title">Poczekaj 24h</h3>
-                    <p class="step-description">Profesjonalnie naprawimy Twoje buty w maksymalnie 24 godziny od otrzymania przesyłki</p>
+                    <p class="step-description">Profesjonalnie naprawimy Twoje buty w maksymalnie 24 godziny od otrzymania Twojej przesyłki</p>
                 </div>
 
                 <div class="process-step process-step-highlighted">
@@ -176,8 +179,8 @@ include 'includes/header.php';
                         </div>
                         <span class="step-number">07</span>
                     </div>
-                    <h3 class="step-title">Odbierz odnowione buty</h3>
-                    <p class="step-description">Odbierz swoje jak nowe buty z paczkomatu</p>
+                    <h3 class="step-title">Odbierz naprawione buty</h3>
+                    <p class="step-description">Odbierz swoje jak nowe buty z paczkomatu. Możesz je od razu założyć i ruszyć przed siebie ;-)</p>
                 </div>
             </div>
 
@@ -193,7 +196,7 @@ include 'includes/header.php';
             <div class="section-header">
                 <h2 class="section-title">Nasza oferta</h2>
                 <p class="section-subtitle">
-                    Oferujemy pełen zakres usług szewskich. Poniżej przykładowe naprawy - wyślij zdjęcia w formularzu wyceny, aby dowiedzieć się czy możliwa jest naprawa Twoich butów i w jakiej cenie.
+                    Oferujemy pełen zakres usług szewskich. Poniżej przykładowe naprawy - wyślij zdjęcia w formularzu wyceny, aby dowiedzieć się czy możliwa jest naprawa Twoich butów (lub innej galanterii skórzanej) i w jakiej cenie.
                 </p>
             </div>
 
@@ -226,8 +229,8 @@ include 'includes/header.php';
                     <div class="service-icon">
                         <i class="fas fa-tshirt"></i>
                     </div>
-                    <h3 class="service-title">Renowacja skóry</h3>
-                    <p class="service-description">Czyszczenie, konserwacja i odnawianie skóry. Przywracamy kolor i blask zniszczonym butom skórzanym.</p>
+                    <h3 class="service-title">Renowacja</h3>
+                    <p class="service-description">Czyszczenie, konserwacja i odnawianie. Przywracamy kolor i blask zniszczonym butom.</p>
                 </div>
 
                 <div class="service-card">
@@ -250,7 +253,7 @@ include 'includes/header.php';
             <div class="services-cta">
                 <p class="services-note">
                     <i class="fas fa-info-circle"></i>
-                    To tylko przykłady naszych usług. Naprawiamy wszystkie rodzaje obuwia oraz torebki, paski i inne wyroby skórzane. Nie jesteś pewien czy możemy naprawić Twój przedmiot? Wyślij zdjęcie w formularzu wyceny - odpowiemy czy naprawa jest możliwa.
+                    To tylko przykłady naszych usług. Naprawiamy wszystkie rodzaje obuwia oraz torebki, paski i inne wyroby skórzane. Nie wiesz czy możemy naprawić Twój przedmiot? Wyślij zdjęcie w formularzu wyceny - odpowiemy czy naprawa jest możliwa.
                 </p>
                 <a href="#wycena" class="btn btn-primary btn-large">Wyceń swoją naprawę</a>
             </div>
@@ -263,7 +266,7 @@ include 'includes/header.php';
             <div class="section-header">
                 <h2 class="section-title">Dlaczego my?</h2>
                 <p class="section-subtitle">
-                    Najważniejsze powody, dla których klienci wybierają BUTOLOG
+                    Najważniejsze powody, dla których klienci wybierają naprawę w BUTOLOG.PL
                 </p>
             </div>
 
@@ -272,9 +275,9 @@ include 'includes/header.php';
                     <div class="feature-icon">
                         <i class="fas fa-truck"></i>
                     </div>
-                    <h3 class="feature-title">Darmowa wysyłka w obie strony</h3>
+                    <h3 class="feature-title">Wysyłka w obie strony w cenie usługi</h3>
                     <p class="feature-description">
-                        Nie płacisz za wysyłkę. Koszt transportu w obie strony jest wliczony w cenę usługi. My zajmujemy się całą logistyką - Ty tylko wysyłasz i odbierasz buty z paczkomatu.
+                        Koszt transportu w obie strony jest wliczony w cenę usługi. Płacisz tylko raz, a my zajmujemy się całą logistyką - Ty tylko zanosisz i odbierasz buty z paczkomatu. 
                     </p>
                 </div>
 
@@ -298,7 +301,7 @@ include 'includes/header.php';
             <div class="section-header">
                 <h2 class="section-title">Wyceń swoją naprawę</h2>
                 <p class="section-subtitle">
-                    Prześlij zdjęcie butów i opis problemu, a otrzymasz profesjonalną wycenę
+                    Prześlij zdjęcie butów i opis problemu, a otrzymasz profesjonalną wycenę. Postaraj się jak najdokładniej ująć problem na fotografii.
                 </p>
             </div>
 
@@ -386,10 +389,10 @@ include 'includes/header.php';
                     </div>
                     <h3 class="success-title">Zgłoszenie zostało wysłane!</h3>
                     <p class="success-subtitle">
-                        Dziękujemy za zgłoszenie! Na podany adres e-mail zostanie przesłana szczegółowa wycena wraz z linkiem do płatności. Po zaakceptowaniu ceny i dokonaniu płatności otrzymasz etykietę wysyłki.
+                        Dziękujemy za zgłoszenie! Na podany adres e-mail zostanie przesłana szczegółowa wycena wraz z linkiem do płatności. Po zaakceptowaniu ceny i dokonaniu płatności otrzymasz etykietę wysyłki do druku.
                     </p>
                     <div class="success-info">
-                        <p class="info-text">Czas oczekiwania na wycenę: <strong>od 1 minuty do 12 godzin</strong></p>
+                        <p class="info-text">Czas oczekiwania na wycenę: <strong>od 5 minut do 12 godzin</strong></p>
                     </div>
                     <button onclick="resetQuoteForm()" class="btn btn-primary" style="margin-top: 1.5rem;">
                         Przejdź do nowej wyceny
@@ -426,7 +429,17 @@ include 'includes/header.php';
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Naprawiamy wszystkie rodzaje obuwia: sportowe, eleganckie, skórzane, zamszowe, tekstylne. Dodatkowo zajmujemy się naprawą torebek, pasków i innych wyrobów skórzanych. Jeśli nie jesteś pewien, czy możemy naprawić Twój przedmiot - wyślij zdjęcie w formularzu wyceny.</p>
+                        <p>Naprawiamy wszystkie rodzaje obuwia: sportowe, eleganckie, skórzane, zamszowe, tekstylne. Dodatkowo zajmujemy się naprawą torebek, pasków i innych wyrobów skórzanych. Jeśli wiesz, czy możemy naprawić Twój przedmiot - wyślij zdjęcie w formularzu wyceny.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Czy mogę wysłać buty w jednym paczkomacie a odebrać naprawione w innym?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tak, podczas dokonywania płatności wypełniasz formularz w którym możesz wybrać dowolny paczkomat zwrotny.</p>
                     </div>
                 </div>
 
@@ -436,7 +449,7 @@ include 'includes/header.php';
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Tak, możesz wysłać kilka par w jednej przesyłce. Każda para musi być jednak opisana w osobnym formularzu wyceny. Dzięki temu otrzymasz precyzyjną wycenę dla każdego elementu.</p>
+                        <p>Ilość par butów w jednej wysyłce ograniczona jest do wielkości paczki jaka może zmieścić się w paczkomacie. Akceptowane są dwa gabaryty przesyłki: Średni (Max. 19 x 38 x 64 cm) oraz Duży (Max. 41 x 38 x 64 cm). O fakcie naprawy kilku par butów musisz poinformować w formularzu wyceny.</p>
                     </div>
                 </div>
 
@@ -446,7 +459,7 @@ include 'includes/header.php';
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Akceptujemy płatności kartą (Visa, Mastercard), przelewem bankowym oraz płatności przez popularne portfele elektroniczne (PayPal, Apple Pay, Google Pay). Płatność realizujesz po otrzymaniu i zaakceptowaniu wyceny.</p>
+                        <p>Płatności realizowane są za pośrenictwem Przelewy24. Możesz zapłacić m.in. BLIKiem lub wybierając swój bank. Płatność realizujesz po otrzymaniu i zaakceptowaniu wyceny.</p>
                     </div>
                 </div>
 
@@ -456,7 +469,7 @@ include 'includes/header.php';
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Jeśli nie zaakceptujesz naszej wyceny, buty zostaną odesłane bez żadnych napraw. W takim przypadku pokrywasz jedynie koszt przesyłki zwrotnej (około 15-20 zł). Koszt przesyłki do nas jest zawsze darmowy.</p>
+                        <p>Wycena jest darmowa, jeśli jej nie zaakceptujesz możesz zignorować przesłaną ofertę lub wrócić do nas z inną parą butów :).</p>
                     </div>
                 </div>
 
@@ -466,7 +479,7 @@ include 'includes/header.php';
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Tak, wszystkie nasze naprawy objęte są 30-dniową gwarancją. Jeśli w tym czasie naprawiony element ulegnie ponownie uszkodzeniu, bezpłatnie powtórzymy naprawę.</p>
+                        <p>Tak, wszystkie nasze naprawy objęte są 7-dniową gwarancją. Jeśli w tym czasie naprawiony element ulegnie ponownie uszkodzeniu, bezpłatnie powtórzymy naprawę.</p>
                     </div>
                 </div>
 
@@ -476,7 +489,7 @@ include 'includes/header.php';
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Paczkomaty InPost są dostępne w całej Polsce - w ponad 20 000 lokalizacji. Możesz skorzystać z naszej usługi niezależnie od tego, gdzie mieszkasz.</p>
+                        <p>Paczkomaty InPost są dostępne w całej Polsce - w ponad 20 000 lokalizacji. Możesz skorzystać z naszej usługi niezależnie od tego, gdzie mieszkasz. Prawdopodobnie najbliższy paczkomat jest tuż za rogiem Twojego miejsca zamieszkania.</p>
                     </div>
                 </div>
 
@@ -486,14 +499,14 @@ include 'includes/header.php';
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Wszystkie przesyłki są ubezpieczone. W przypadku uszkodzenia podczas transportu, otrzymasz pełne odszkodowanie. Dodatkowo, nasze doświadczone zapakowanie minimalizuje ryzyko uszkodzeń.</p>
+                        <p>Wszystkie przesyłki są ubezpieczone przez Inpost. W przypadku uszkodzenia podczas transportu, otrzymasz odszkodowanie. </p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-cta">
                 <div class="cta-card">
-                    <h3 class="cta-title">Nie znalazłeś odpowiedzi?</h3>
+                    <h3 class="cta-title">Nie widzisz właściwej odpowiedzi?</h3>
                     <p class="cta-description">
                         Skontaktuj się z nami - odpowiemy na wszystkie Twoje pytania
                     </p>
@@ -522,9 +535,9 @@ include 'includes/header.php';
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="contact-details">
-                            <h4 class="contact-label">Email</h4>
+                            <h4 class="contact-label">E-mail</h4>
                             <a href="mailto:kontakt@butolog.pl" class="contact-value">kontakt@butolog.pl</a>
-                            <p class="contact-note">Odpowiadamy w ciągu 2-4 godzin</p>
+                            <p class="contact-note">Szybkie odpowiedzi mailowe</p>
                         </div>
                     </div>
 
@@ -533,9 +546,9 @@ include 'includes/header.php';
                             <i class="fas fa-phone"></i>
                         </div>
                         <div class="contact-details">
-                            <h4 class="contact-label">Telefon</h4>
-                            <a href="tel:+48123456789" class="contact-value">+48 123 456 789</a>
-                            <p class="contact-note">Pon-Pt: 9:00-18:00</p>
+                            <h4 class="contact-label">Telefon (support)</h4>
+                            <a href="tel:+48123456789" class="contact-value">+48 507 616 514</a>
+                            <p class="contact-note">Tylko w przypadku problemów technicznych (płatności, przesyłki, strona www)</p>
                         </div>
                     </div>
 
@@ -570,7 +583,12 @@ include 'includes/header.php';
                         <button type="submit" class="btn btn-primary btn-large btn-full">
                             <i class="fas fa-paper-plane"></i>
                             <span>Wyślij wiadomość</span>
-                        </button>
+                        </button><br><br>
+                         <label class="checkbox-label">
+                                <input type="checkbox" name="privacy_accepted" required hidden>
+                                <span class="checkmark"></span>
+                                <p><span>Akceptuję <a href="/polityka-prywatnosci" target="_blank" class="link">politykę prywatności</a> *</span></p>
+                            </label>
                     </form>
 
                     <div id="contactSuccess" class="success-message" style="display: none;">
