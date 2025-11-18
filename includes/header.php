@@ -61,7 +61,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a href="/#kontakt" class="nav-link">Kontakt</a>
                     <a href="/#wycena" class="btn btn-primary">Wyceń swoją naprawę</a>
                 </nav>
-
+<div class="social-links">
+                        <a href="https://www.facebook.com/butolog/" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/butolog.pl/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@butolog.pl" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
                 <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
                     <i class="fas fa-bars"></i>
                 </button>
