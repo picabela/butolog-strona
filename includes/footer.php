@@ -11,9 +11,9 @@
                         aby naprawa Twoich butów była szybka, wygodna i dostępna z każdego miejsca w Polsce.
                     </p>
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/butolog/" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/butolog.pl/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@butolog.pl" class="social-link"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
 
